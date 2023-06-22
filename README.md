@@ -16,12 +16,10 @@ This sample demonstrates the embedding the dashboard in iframe with token based 
 
  ## Configuration
 
-  1. Requires the following properties to be configured as mandatory.
+  1. Requires the following properties to be configured as mandatory:
       * EmbedSecretKey
       * DashboardURL 
-      * UserEmail.
-
-  Please find the details of the parameter in the URL as follows. 
+      * UserEmail
 
    <table>
    <tr>
@@ -43,7 +41,7 @@ This sample demonstrates the embedding the dashboard in iframe with token based 
 
    <tr>
    <td>EmbedSecretKey</td>
-   <td>EmbedSecretKey used for generating the `EmbedSignature`. Refer this <a href="https://help.boldbi.com/site-administration/embed-settings/#get-embed-secret-code">link</a> to get the EmbedSecretKey.<code>
+   <td>Get your EmbedSecret key from the Embed tab by enabling the Enable embed authentication in the <a href="https://help.boldbi.com/site-administration/embed-settings/#get-embed-secret-code">Administration page</a> <code>
 
    ```js
       Example:
@@ -55,7 +53,7 @@ This sample demonstrates the embedding the dashboard in iframe with token based 
 
    <tr>
    <td>Embed_user_email</td>
-    <td>User email id. <code>
+    <td>UserEmail of the Admin in your Bold BI<code>
 
    ```js
       Example:
