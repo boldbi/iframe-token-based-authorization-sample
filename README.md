@@ -12,7 +12,7 @@ This sample demonstrates the embedding the dashboard in iframe with token based 
 
  #### Supported browsers
   
-  * Google Chrome, Microsoft Edge, Mozilla Firefox, and Safari.
+  * Google Chrome, Microsoft Edge, Mozilla Firefox.
 
  ## Configuration
 
