@@ -1,4 +1,5 @@
 # Iframe Token Based Authorization Sample
+
 This sample demonstrates the embedding the dashboard in iframe with token based authoriztion.
 
 ## Dashboard view
@@ -15,7 +16,55 @@ This sample demonstrates the embedding the dashboard in iframe with token based 
 
  ## Configuration
 
-  1. Need to change the mantory properties for `EmbedSecretKey`, `DashboardURL` and `UserEmail`.
+  1. Requires the following properties to be configured as mandatory.
+      * EmbedSecretKey
+      * DashboardURL 
+      * UserEmail.
+
+  Please find the details of the parameter in the URL as follows. 
+
+   <table>
+   <tr>
+   <td style="width: 23%"><strong>Parameter</strong></td>
+   <td style="width: 77%"><strong>Description</strong></td>
+   </tr>
+
+   <tr>
+   <td>Dashboard URL</td>
+   <td>URL of the dashboard to be embed. Refer this <a href="/working-with-dashboards/share-dashboards/get-dashboard-link/">link</a> to get the URL. <code>
+
+   ```js
+      Example:
+      https://test.boldbi.com/bi/en-us/site/site1/dashboards/8428c9d9-85db-418c-b877-ea4495dcddd7/Predictive%20Analytics/Personal%20Expense%20Analysis
+   ```
+
+   </code> </td>
+   </tr>
+
+   <tr>
+   <td>EmbedSecretKey</td>
+   <td>EmbedSecretKey used for generating the `EmbedSignature`. Refer this <a href="https://help.boldbi.com/site-administration/embed-settings/#get-embed-secret-code">link</a> to get the EmbedSecretKey.<code>
+
+   ```js
+      Example:
+      EmbedSecretKey ="TVGajVPZ5M89IPfFqSnszgAzN1d6Jbkd";
+   ```
+
+</code> </td>
+   </tr>
+
+   <tr>
+   <td>Embed_user_email</td>
+    <td>User email id. <code>
+
+   ```js
+      Example:
+      UserEmail = "admin@domain.com";
+   ```
+
+</code></td>
+</tr>
+</table>
 
  ## Developer IDE
 
@@ -27,14 +76,9 @@ This sample demonstrates the embedding the dashboard in iframe with token based 
 
   * Run your `Iframe token based authentication` sample in Visual Studio.
 
-  * After run your sample, the application will automatically launch in the default browser. You can access it at the specified location (e.g., http://../embed.html).
-
-  * Open `File Explorer` and navigate to the specified file [location](https://github.com/boldbi/iframe-token-based-authorization-sample/tree/master/EmbedDashboardWithTokenAuthentication)
-
-  * Newly generated one file called `embed` in `Chrome` browser. Open the `embed` file, dashboard will be rendering.
+  * After starting the sample application, an `HTML` file will be generated at the specified [location](https://github.com/boldbi/iframe-token-based-authorization-sample/tree/master/EmbedDashboardWithTokenAuthentication). You can open this file in a web browser to render and view the dashboard.
 
     ![dashboard image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/b61a18f4-6026-4379-bb7e-82844a7fdd6f)
-
 
 Please refer to the [help documentation](https://help.boldbi.com/embedding-options/iframe-embedding/dashboard-with-token-based-authentication/) to know how to run the sample.
 
