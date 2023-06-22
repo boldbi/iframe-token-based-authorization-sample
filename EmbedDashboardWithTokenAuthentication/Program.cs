@@ -16,12 +16,12 @@ namespace EmbedDashboardWithTokenAuthentication
         {
             // Variable declaration to form the embed URL 
 
-            string embedSecretKey = "TVGajVPZ5M89IPfFqSnszgAzVl27Jbkd";  // secret code generated in the Bold BI application
-            var dashboardUrl = "http://localhost:5315/bi/site/site1/dashboards/3125a7dd-8dc9-4c5a-9239-6cd63c244400/Sales/Sales%20Analysis%20Dashboard?"; // URL of the dashboard to be embedded. Add '? or &' at the end of the URL based on your dashboard URL
+            string embedSecretKey = "7tFaq2zidmxJN8Pid6IMYhHFqAUwMfK";  // secret code generated in the Bold BI application
+            var dashboardUrl = "https://demo.admin.com/bi/en-us/dashboards/af43fb72-1e4e-45d5-9783-2a905a928792/Sales/Northwind%20Traders%20Sales%20Analysis(114)?"; // URL of the dashboard to be embedded. Add '? or &' at the end of the URL based on your dashboard URL
 
             // Mandatory Parameters to embed the dashboard with token based authentication.
             var nonce = Guid.NewGuid().ToString(); // random string
-            var userEmail = "nithya.gopal@syncfusion.com"; // email address of the user
+            var userEmail = "demo@admin.com"; // email address of the user
             double timeStamp = Math.Round((DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc)).TotalSeconds); // current time as UNIX time stamp
 
             // Optional dashboard embed parameter
