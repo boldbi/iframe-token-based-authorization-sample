@@ -29,7 +29,7 @@ This sample demonstrates the embedding the widget in iframe with token based aut
 
    <tr>
    <td>Dashboard URL</td>
-   <td>URL of the dashboard, in which the widget is present and will be embedded. Refer this <a href="/working-with-dashboards/share-dashboards/get-dashboard-link/">link</a> to get the URL. <code>
+   <td>URL of the dashboard, in which the widget is present and will be embedded. Refer this <a href="/embedding-options/iframe-embedding/widget-with-token-based-authentication/#how-to-get-the-embed-widget-url">link</a> to get the URL. <code>
 
    ```js
       Example:
