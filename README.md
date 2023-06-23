@@ -72,9 +72,9 @@ This sample demonstrates the embedding the widget in iframe with token based aut
  
   * Open the solution file `EmbedWidgetWithTokenAuthentication.sln` in Visual Studio.
 
-  * Run your `Iframe token based authentication` sample in Visual Studio.
+  * Run your sample in Visual Studio.
 
-  * After starting the sample application, an `HTML` file will be generated at the specified [location](https://github.com/boldbi/iframe-token-based-authorization-sample/tree/master/EmbedWidgetWithTokenAuthentication). You can open this file in a web browser to render and view the dashboard.
+  * After starting the sample application, an `HTML` file will be generated at the specified [location](https://github.com/boldbi/iframe-token-based-authorization-sample/tree/master/EmbedWidgetWithTokenAuthentication). You can open this file in a web browser to render and view the widget.
 
     ![widget image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/2f6de828-1d42-40c3-984d-12293069631c)
 
