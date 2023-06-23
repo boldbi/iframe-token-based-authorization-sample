@@ -29,7 +29,6 @@ namespace EmbedDashboardWithTokenAuthentication
             bool hasViews = true; // enable or disable the permission to check the views of the dashboard
             bool hasExport = true; // enable or disable the permission to export the dashboards and widgets
             bool hasDashboardComments = true; // enable or disable the permission to comment related actions to dashboards
-            bool hasWidgetComments = true; // enable or disable the permission to comment related actions to widgets
             bool isMarkFavorite = true; // enable to disable the permission to make the dashboard favorite
             var expirationTime = "10000"; // alive time of the token(Expiration time is 10000ms)
 
