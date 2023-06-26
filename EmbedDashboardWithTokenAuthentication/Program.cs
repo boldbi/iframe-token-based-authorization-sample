@@ -34,10 +34,10 @@ namespace EmbedDashboardWithTokenAuthentication
 
             // Variable declaration to form the signature for the embed URL 
 
-            string embedParameters = "embed_nonce=" + nonce + "&embed_user_email=" + userEmail + "&embed_dashboard_views_edit=" + canSaveView + "&embed_dashboard_views=" + hasViews + "&embed_dashboard_export=" + hasExport + "&embed_dashboard_comments=" + hasDashboardComments + "&embed_widget_comments=" + hasWidgetComments + "&embed_dashboard_favorite=" + isMarkFavorite + "&embed_timestamp=" + timeStamp + "&embed_expirationtime=" + expirationTime;
+            string embedParameters = "embed_nonce=" + nonce + "&embed_user_email=" + userEmail + "&embed_dashboard_views_edit=" + canSaveView + "&embed_dashboard_views=" + hasViews + "&embed_dashboard_export=" + hasExport + "&embed_dashboard_comments=" + hasDashboardComments + "&embed_dashboard_favorite=" + isMarkFavorite + "&embed_timestamp=" + timeStamp + "&embed_expirationtime=" + expirationTime;
 
-            string signature = SignURL(embedParameters.ToLower(), embedSecretKey);
-            string embedSignature = embedParameters.ToLower() + "&embed_signature=" + signature;
+            string signature = SignURL(embedParameters, embedSecretKey);
+            string embedSignature = embedParameters + "&embed_signature=" + signature;
             var embedUrl = dashboardUrl + embedSignature;
             var iframe = "<iframe src='" + embedUrl + "' id='dashboard-frame' width='100%' height='100%' allowfullscreen frameborder='0'></iframe>";
             var filePath = @"..\..\..\embed.html"; // file named embed will be created in the extracted location in which the embed URL will be maintained
