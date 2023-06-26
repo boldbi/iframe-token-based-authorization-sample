@@ -70,9 +70,9 @@ This sample demonstrates the embedding the dashboard in iframe with token based 
 
  ### Run a Sample Using Visual Studio 2022
  
-  * Open the solution file `EmbedDashboardWithTokenAuthentication.sln` in Visual Studio.
+  * Open the solution file `EmbedDashboardswithSSOusingToken.sln` in Visual Studio.
 
-  * Run your `EmbedDashboardWithTokenAuthentication` sample in Visual Studio.
+  * Run your `EmbedDashboardswithSSOusingToken` sample in Visual Studio.
 
     ![dashboard image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/b61a18f4-6026-4379-bb7e-82844a7fdd6f)
 
