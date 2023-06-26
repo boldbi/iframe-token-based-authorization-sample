@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2404432E-9823-469B-9A43-7BF4A65768CC}</ProjectGuid>
+    <ProjectGuid>{83B94619-CAAB-4358-9E47-88FE3F95057B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EmbedDashboardWithTokenAuthentication</RootNamespace>
-    <AssemblyName>EmbedDashboardWithTokenAuthentication</AssemblyName>
+    <RootNamespace>EmbedDashboardswithSSOusingToken</RootNamespace>
+    <AssemblyName>EmbedDashboardswithSSOusingToken</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

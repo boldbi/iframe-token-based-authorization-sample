@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EmbedDashboardWithTokenAuthentication")]
+[assembly: AssemblyTitle("EmbedDashboardswithSSOusingToken")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EmbedDashboardWithTokenAuthentication")]
+[assembly: AssemblyProduct("EmbedDashboardswithSSOusingToken")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2404432e-9823-469b-9a43-7bf4a65768cc")]
+[assembly: Guid("83b94619-caab-4358-9e47-88fe3f95057b")]
 
 // Version information for an assembly consists of the following four values:
 //

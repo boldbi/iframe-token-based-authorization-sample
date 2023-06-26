@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Runtime.Remoting.Lifetime;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmbedDashboardWithTokenAuthentication
+namespace EmbedDashboardswithSSOusingToken
 {
     public class Program
     {
@@ -16,7 +15,7 @@ namespace EmbedDashboardWithTokenAuthentication
         {
             // Variable declaration to form the embed URL 
             var dashboardUrl = "https://onpremise-demo.boldbi.com/bi/site/site2/dashboards/9b5e9121-1379-4724-afba-c9674eb4f867/Education/adventure%20datasource%20dashboard?"; // URL of the dashboard to be embedded. Add '? or &' at the end of the URL based on your dashboard URL.
-   
+
             // Mandatory Parameters to embed the dashboard with token based authentication.
             var nonce = Guid.NewGuid().ToString(); // To generate random GUID string
             var userEmail = "demo@admin.com"; // User email id.
