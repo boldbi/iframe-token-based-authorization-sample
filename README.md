@@ -72,9 +72,7 @@ This sample demonstrates the embedding the dashboard in iframe with token based 
  
   * Open the solution file `EmbedDashboardWithTokenAuthentication.sln` in Visual Studio.
 
-  * Run your sample in Visual Studio.
-
-  * After starting the sample application, an `HTML` file will be generated at the specified [location](https://github.com/boldbi/iframe-token-based-authorization-sample/tree/master/EmbedDashboardWithTokenAuthentication). You can open this file in a web browser to render and view the dashboard.
+  * Run your `EmbedDashboardWithTokenAuthentication` sample in Visual Studio.
 
     ![dashboard image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/b61a18f4-6026-4379-bb7e-82844a7fdd6f)
 
