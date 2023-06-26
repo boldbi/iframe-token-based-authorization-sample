@@ -70,9 +70,9 @@ This sample demonstrates the embedding the widget in iframe with token based aut
 
  ### Run a Sample Using Visual Studio 2022
  
-  * Open the solution file `EmbedWidgetWithTokenAuthentication.sln` in Visual Studio.
+  * Open the solution file `EmbedWidgetswithSSOusingToken.sln` in Visual Studio.
 
-  * Run your `EmbedWidgetWithTokenAuthentication` sample in Visual Studio.
+  * Run your `EmbedWidgetswithSSOusingToken` sample in Visual Studio.
 
     ![widget image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/2f6de828-1d42-40c3-984d-12293069631c)
 
