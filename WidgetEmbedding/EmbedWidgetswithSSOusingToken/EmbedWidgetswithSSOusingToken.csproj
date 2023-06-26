@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{03DC7C6A-2446-4699-BA55-1093B42DB6CD}</ProjectGuid>
+    <ProjectGuid>{45126160-2FB9-4B27-B81C-331A40E6BD12}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EmbedWidgetWithTokenAuthentication</RootNamespace>
-    <AssemblyName>EmbedWidgetWithTokenAuthentication</AssemblyName>
+    <RootNamespace>EmbedWidgetswithSSOusingToken</RootNamespace>
+    <AssemblyName>EmbedWidgetswithSSOusingToken</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
