@@ -1,6 +1,6 @@
-# Embed Widgets with SSO using Token
+# Embed Widget with SSO using Token
 
-This sample demonstrates the embedding the widget with iFrame based Single Sign-on(SSO) using token based authentication.
+This sample demonstrates the embedding the widget with iFrame based Single Sign-On(SSO) using token based authentication.
 
 ## Widget view
 
@@ -17,8 +17,8 @@ This sample demonstrates the embedding the widget with iFrame based Single Sign-
  ## Configuration
 
   1. Requires the following properties to be configured as mandatory:
-      * EmbedSecretKey
       * DashboardURL 
+      * EmbedSecretKey
       * UserEmail
 
    <table>
