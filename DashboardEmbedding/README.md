@@ -4,7 +4,7 @@ This sample demonstrates the embedding the dashboard with iFrame based Single Si
 
 ## Dashboard view
 
-![Dashboard View](https://github.com/boldbi/aspnet-core-sample/assets/91586758/b61a18f4-6026-4379-bb7e-82844a7fdd6f)
+![Dashboard View](https://github.com/boldbi/blazor-webassembly-sample/assets/91586758/9719d6e4-f0e0-4254-afc6-051489550eb6)
 
  #### Help link
 
@@ -74,7 +74,7 @@ This sample demonstrates the embedding the dashboard with iFrame based Single Si
 
   * Run your `EmbedDashboardswithSSOusingToken` sample in Visual Studio.
 
-    ![dashboard image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/b61a18f4-6026-4379-bb7e-82844a7fdd6f)
+    ![dashboard image](https://github.com/boldbi/blazor-webassembly-sample/assets/91586758/9719d6e4-f0e0-4254-afc6-051489550eb6)
 
 Please refer to the [help documentation](https://help.boldbi.com/embedding-options/iframe-embedding/dashboard-with-token-based-authentication/) to know how to run the sample.
 

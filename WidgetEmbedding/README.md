@@ -4,7 +4,7 @@ This sample demonstrates the embedding the widget with iFrame based Single Sign-
 
 ## Widget view
 
-![Widget View](https://github.com/boldbi/aspnet-core-sample/assets/91586758/2f6de828-1d42-40c3-984d-12293069631c)
+![Widget View](https://github.com/boldbi/blazor-webassembly-sample/assets/91586758/a4fc2b3a-33ff-4225-be1e-027a38ff348c)
 
  #### Help link
 
@@ -74,7 +74,7 @@ This sample demonstrates the embedding the widget with iFrame based Single Sign-
 
   * Run your `EmbedWidgetswithSSOusingToken` sample in Visual Studio.
 
-    ![widget image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/2f6de828-1d42-40c3-984d-12293069631c)
+    ![widget image](https://github.com/boldbi/blazor-webassembly-sample/assets/91586758/a4fc2b3a-33ff-4225-be1e-027a38ff348c)
 
 Please refer to the [help documentation](https://help.boldbi.com/embedding-options/iframe-embedding/widget-with-token-based-authentication/) to know how to run the sample.
 
