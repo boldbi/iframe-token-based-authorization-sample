@@ -1,6 +1,6 @@
-# Iframe Token Based Authorization Sample
+# Embed Dashboards with SSO using Token
 
-This sample demonstrates the embedding the dashboard in iframe with token based authoriztion.
+This sample demonstrates the embedding the dashboard with iFrame based Single Sign-on(SSO) using token based authentication.
 
 ## Dashboard view
 
@@ -88,4 +88,4 @@ Look at the Bold BI Embedding sample to live demo [here](https://samples.boldbi.
 
 ## Documentation
 
-A complete Bold BI Embedding documentation can be found on [Bold BI Embedding Help](https://help.boldbi.com/embedding-options/iframe-embedding/).
+A complete Bold BI Embedding documentation can be found on [Bold BI Embedding Help](https://help.boldbi.com/embedding-options/iframe-embedding/) .

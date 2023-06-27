@@ -1,6 +1,6 @@
-# Iframe Token Based Authorization Sample
+# Embed Widgets with SSO using Token
 
-This sample demonstrates the embedding the widget in iframe with token based authoriztion.
+This sample demonstrates the embedding the widget with iFrame based Single Sign-on(SSO) using token based authentication.
 
 ## Widget view
 
