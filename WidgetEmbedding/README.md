@@ -19,7 +19,7 @@ This sample demonstrates the embedding the widget with iFrame based Single Sign-
   1. Requires the following properties to be configured as mandatory:
       * DashboardURL 
       * EmbedSecretKey
-      * UserEmail
+      * EmbedUserEmail
 
    <table>
    <tr>
@@ -52,7 +52,7 @@ This sample demonstrates the embedding the widget with iFrame based Single Sign-
    </tr>
 
    <tr>
-   <td>Embed_user_email</td>
+   <td>Embed User Email</td>
     <td>UserEmail of the Admin in your Bold BI<code>
 
    ```js
@@ -72,9 +72,13 @@ This sample demonstrates the embedding the widget with iFrame based Single Sign-
  
   * Open the solution file `EmbedWidgetswithSSOusingToken.sln` in Visual Studio.
 
+  * The properties `DashboardURL`, `EmbedSecretKey`, and `EmbedUserEmail` must be configured as mandatory.
+
   * Run your `EmbedWidgetswithSSOusingToken` sample in Visual Studio.
 
     ![widget image](https://github.com/boldbi/blazor-webassembly-sample/assets/91586758/a4fc2b3a-33ff-4225-be1e-027a38ff348c)
+
+> **NOTE:** The default behavior is to display `iframe` content in the `Chrome` browser. If you do not have `Chrome`, please manually retrieve the `iframe` content from the application.
 
 Please refer to the [help documentation](https://help.boldbi.com/embedding-options/iframe-embedding/widget-with-token-based-authentication/) to know how to run the sample.
 
