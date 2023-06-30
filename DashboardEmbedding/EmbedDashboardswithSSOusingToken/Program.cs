@@ -14,13 +14,13 @@ namespace EmbedDashboardswithSSOusingToken
         static void Main(string[] args)
         {
             // Variable declaration to form the embed URL 
-            var dashboardUrl = "https://onpremise-demo.boldbi.com/bi/site/site2/dashboards/9b5e9121-1379-4724-afba-c9674eb4f867/Education/adventure%20datasource%20dashboard?"; // URL of the dashboard to be embedded. Add '? or &' at the end of the URL based on your dashboard URL.
+            var dashboardUrl = "http://test.com/bi/site/site1/dashboards/121be55e-2007-4187-b8a5-a9d73a7eafea/Sales/Sales%20Analysis%20Dashboard?"; // URL of the dashboard to be embedded. Add '? or &' at the end of the URL based on your dashboard URL.
 
             // Mandatory Parameters to embed the dashboard with token based authentication.
             var nonce = Guid.NewGuid().ToString(); // To generate random GUID string
-            var userEmail = "demo@admin.com"; // User email id.
+            var userEmail = "test@domain.com"; // User email id.
             double timeStamp = Math.Round((DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc)).TotalSeconds); // Current time as UNIX time stamp
-            string embedSecretKey = "pUu8DKaujKIyXdYAPWgvj1jW2OsCXuq";  // Secret key generated in the Bold BI application
+            string embedSecretKey = "r5eT5bKa1g0LcU7aXbu1LAUMf2lal85i";  // Secret key generated in the Bold BI application
 
             // Optional dashboard embed parameter
             bool canSaveView = true; // To show or hide the Save and SaveAs icon in the filter overview.

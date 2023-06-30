@@ -14,11 +14,11 @@ namespace EmbedWidgetswithSSOusingToken
         static void Main(string[] args)
         {
             // Variable declaration to form the embed URL 
-            var dashboardUrl = "https://onpremise-demo.boldbi.com/bi/site/site2/dashboards/9b5e9121-1379-4724-afba-c9674eb4f867/Education/adventure%20datasource%20dashboard?isWidgetMode=true&WidgetId=32ed09f7-49ef-4468-9c56-ccc376dbca8a&"; // URL of the widget to be embedded. Add '? or &' at the end of the URL based on your widget URL.
+            var dashboardUrl = "https://test.com/bi/site/site2/dashboards/9b5e9121-1379-4724-afba-c9674eb4f867/Education/adventure%20datasource%20dashboard?isWidgetMode=true&WidgetId=32ed09f7-49ef-4468-9c56-ccc376dbca8a&"; // URL of the widget to be embedded. Add '? or &' at the end of the URL based on your widget URL.
 
             // Mandatory Parameters to embed the widget with token based authentication.
             var nonce = Guid.NewGuid().ToString(); // To generate random GUID string.
-            var userEmail = "demo@admin.com"; // User email id.
+            var userEmail = "test@admin.com"; // User email id.
             double timeStamp = Math.Round((DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc)).TotalSeconds); // Current time as UNIX time stamp.
             string embedSecretKey = "pUu8DKaujKIyXdYAPWgvj1jW2OsCXuq";  // Secret key generated in the Bold BI application.
 
