@@ -57,7 +57,7 @@ This sample demonstrates the embedding the widget with iFrame based Single Sign-
 
    ```js
       Example:
-      Embed_User_Email = "admin@domain.com";
+      Embed_User_Email = "test@domain.com";
    ```
 
 </code></td>

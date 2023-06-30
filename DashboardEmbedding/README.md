@@ -57,7 +57,7 @@ This sample demonstrates the embedding the dashboard with iFrame based Single Si
 
    ```js
       Example:
-      Embed_User_Email = "admin@domain.com";
+      Embed_User_Email = "test@domain.com";
    ```
 
 </code></td>
