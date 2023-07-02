@@ -14,36 +14,36 @@ namespace EmbedWidgetWithTokenAuthentication
         static void Main(string[] args)
         {
             // Variable declaration to form the embed URL 
+            var dashboardUrl = "https://onpremise-demo.boldbi.com/bi/site/site2/dashboards/9b5e9121-1379-4724-afba-c9674eb4f867/Education/adventure%20datasource%20dashboard?isWidgetMode=true&WidgetId=32ed09f7-49ef-4468-9c56-ccc376dbca8a&"; // URL of the dashboard to be embedded. Add '? or &' at the end of the URL based on your dashboard URL\r\n"; // URL of the dashboard to be embedded. Add '? or &' at the end of the URL based on your dashboard URL.
 
-            string embedSecretKey = "pUu8DKaujKIyXdYAPWgvj1jW2OsCXuq";  // secret key generated in the Bold BI application
-            var dashboardUrl = "https://onpremise-demo.boldbi.com/bi/site/site2/dashboards/9b5e9121-1379-4724-afba-c9674eb4f867/Education/adventure%20datasource%20dashboard?isWidgetMode=true&WidgetId=32ed09f7-49ef-4468-9c56-ccc376dbca8a&"; // URL of the widget to be embedded. Add '? or &' at the end of the URL based on your widget URL
-
-            // Mandatory Parameters to embed the widget with token based authentication.
-            var nonce = Guid.NewGuid().ToString(); // random string
-            var userEmail = "demo@boldbi.com"; // email address of the user
-            double timeStamp = Math.Round((DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc)).TotalSeconds); // current time as UNIX time stamp
+            // Mandatory Parameters to embed the dashboard with token based authentication.
+            var nonce = Guid.NewGuid().ToString(); // To generate random GUID string.
+            var userEmail = "demo@admin.com"; // User email id.
+            double timeStamp = Math.Round((DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc)).TotalSeconds); // Current time as UNIX time stamp.
+            string embedSecretKey = "pUu8DKaujKIyXdYAPWgvj1jW2OsCXuq";  // Secret key generated in the Bold BI application.
 
             // Optional dashboard embed parameter
-            bool canSaveView = true; // enable or disable permission to create, open, update, delete view 
-            bool hasViews = true; // enable or disable the permission to check the views of the dashboard
-            bool hasExport = true; // enable or disable the permission to export the dashboards and widgets
-            bool hasWidgetComments = true; // enable or disable the permission to comment related actions to widgets
-            bool isMarkFavorite = true; // enable to disable the permission to make the dashboard favorite
-            var expirationTime = "10000"; // alive time of the token(Expiration time is 10000ms)
+            bool canSaveView = true; // To show or hide the Save and SaveAs icon in the filter overview.
+            bool hasViews = true; // To show or hide the views icon from the toolbar.
+            bool hasExport = true; // To show or hide the export icon from the toolbar.
+            bool hasWidgetComments = true; // To show or hide the widget comments icon from the toolbar.
+            bool isMarkFavorite = true; // To show or hide the dashboard favorite icon from the toolbar. 
+            var expirationTime = "518400"; // Alive time of the token(Expiration time is 518400s).
 
             // Variable declaration to form the signature for the embed URL 
-
             string embedParameters = "embed_nonce=" + nonce + "&embed_user_email=" + userEmail + "&embed_dashboard_views_edit=" + canSaveView + "&embed_dashboard_views=" + hasViews + "&embed_dashboard_export=" + hasExport + "&embed_widget_comments=" + hasWidgetComments + "&embed_dashboard_favorite=" + isMarkFavorite + "&embed_timestamp=" + timeStamp + "&embed_expirationtime=" + expirationTime;
 
             string signature = SignURL(embedParameters, embedSecretKey);
             string embedSignature = embedParameters + "&embed_signature=" + signature;
             var embedUrl = dashboardUrl + embedSignature;
             var iframe = "<iframe src='" + embedUrl + "' id='dashboard-frame' width='100%' height='100%' allowfullscreen frameborder='0'></iframe>";
-            var filePath = @"..\..\..\embed.html"; // file named embed will be created in the extracted location in which the embed URL will be maintained
+            var filePath = System.AppDomain.CurrentDomain.BaseDirectory + "embed.html"; // file named embed will be created in the extracted location in which the embed URL will be maintained.
             File.WriteAllText(filePath, iframe);
             string url = filePath;
-            Process.Start("chrome.exe", url); // By default, the embed widget will be rendered in Google Chrome. Can update the browser as you wish
+            Process.Start("chrome.exe", url); // By default, the embed dashboard will be rendered in Google Chrome. Can update the browser as you wish.
         }
+
+        // This method generates the hashed signature using the HMACSHA256 algorithm, which should be appended to the existing iframe URL as a query parameter named ‘embed_signature’.
         static string SignURL(string embedParameters, string embedSecretKey)
         {
             var encoding = new UTF8Encoding();
