@@ -80,7 +80,7 @@ This sample demonstrates the embedding the widget with iFrame based Single Sign-
 
 > **NOTE:** The default behavior is to display `iframe` content in the `Chrome` browser. If you do not have `Chrome`, please manually retrieve the `iframe` content from the application.
 
-Please refer to the [help documentation](https://help.boldbi.com/embedding-options/iframe-embedding/widget-with-token-based-authentication/) to know how to run the sample.
+Please refer to the [help documentation](https://help.boldbi.com/embedding-options/iframe-embedding/embed-widgets-with-sso-using-token/) to know how to run the sample.
 
 ## Important notes
 
