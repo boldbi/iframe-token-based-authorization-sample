@@ -76,11 +76,11 @@ This sample demonstrates the embedding the dashboard with iFrame based Single Si
 
   * Run your `EmbedDashboardswithSSOusingToken` sample.
 
+    ![dashboard image](https://github.com/boldbi/blazor-webassembly-sample/assets/91586758/9719d6e4-f0e0-4254-afc6-051489550eb6)
+
 > **NOTE:** The default behavior is to display `iframe` content in the `Chrome` browser. If you do not have `Chrome`, please manually retrieve the `iframe` content from the application.
 
-   ![dashboard image](https://github.com/boldbi/blazor-webassembly-sample/assets/91586758/9719d6e4-f0e0-4254-afc6-051489550eb6)
-
-Please refer to the [help documentation](https://help.boldbi.com/embedding-options/iframe-embedding/dashboard-with-token-based-authentication/) to know how to run the sample.
+Please refer to the [help documentation](https://help.boldbi.com/embedding-options/iframe-embedding/embed-dashboards-with-sso-using-token/) to know how to run the sample.
 
 ## Important notes
 
