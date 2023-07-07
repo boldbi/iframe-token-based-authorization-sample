@@ -29,7 +29,7 @@ This sample demonstrates the embedding the widget with iFrame based Single Sign-
 
    <tr>
    <td>Dashboard URL</td>
-   <td>URL of the dashboard widget to be embed. Refer this <a href="/embedding-options/iframe-embedding/embedding-a-widget/">link</a> to get the URL. <code>
+   <td>URL of the dashboard widget to be embed. Refer this <a href="https://help.boldbi.com/embedding-options/iframe-embedding/embedding-a-widget/#how-to-get-the-embed-widget-url">link</a> to get the URL. <code>
 
    ```js
       Example:
