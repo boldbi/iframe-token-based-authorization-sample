@@ -29,7 +29,7 @@ This sample demonstrates the embedding the dashboard with iFrame based Single Si
 
    <tr>
    <td>Dashboard URL</td>
-   <td>URL of the dashboard to be embed. Refer this <a href="/working-with-dashboards/share-dashboards/get-dashboard-link/">link</a> to get the URL. <code>
+   <td>URL of the dashboard to be embed. Refer this <a href="https://help.boldbi.com/working-with-dashboards/share-dashboards/get-dashboard-link">link</a> to get the URL. <code>
 
    ```js
       Example:
