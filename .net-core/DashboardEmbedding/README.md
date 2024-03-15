@@ -4,7 +4,7 @@ This project was created using ASP.NET Core 6.0.  This application aims to demon
 
 ## Dashboard view
 
-![Dashboard View](https://github.com/boldbi/iframe-dashboard-asp-net-mvc-sample/assets/129487075/df676da3-280d-4006-9914-8d140d279e6c)
+![iframedashboard](https://github.com/boldbi/iframe-token-based-authorization-sample/assets/129487075/e5bf377f-6e07-4d01-ae82-b725a7143c86)
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ This project was created using ASP.NET Core 6.0.  This application aims to demon
 
 To set the following properties in the `EmbedProperties.cs` file, follow these instructions:
 
-![EmbedProperties.cs](https://github.com/boldbi/iframe-dashboard-asp-net-mvc-sample/assets/129487075/27284c21-401f-43da-8ae7-d51d998e55ec)
+![iframedashboard_properties](https://github.com/boldbi/iframe-token-based-authorization-sample/assets/129487075/ebef48eb-22b4-41c1-a23c-77466fa4f543)
 
 <meta charset="utf-8"/>
     <table>
@@ -41,7 +41,7 @@ To set the following properties in the `EmbedProperties.cs` file, follow these i
 
  ## Run a Sample Using Command Line Interface 
     
-  1. Open the command line interface and navigate to the specified file [location]() where the project is located.
+  1. Open the command line interface and navigate to the specified file [location](https://github.com/boldbi/iframe-token-based-authorization-sample/.net-core/DashboardEmbedding/EmbedDashboardwithSSOusingToken) where the project is located.
 
   2. Execute the command `dotnet restore` to restore the necessary packages. Once the packages have been successfully restored, use the `dotnet build` command to build the project.
   
@@ -53,7 +53,7 @@ To set the following properties in the `EmbedProperties.cs` file, follow these i
 
  ### Run a Sample Using Visual Studio Code
  
-  * Open the folder [DashboardEmbedding]() in Visual Studio Code.
+  * Open the folder [DashboardEmbedding](https://github.com/boldbi/iframe-token-based-authorization-sample/.net-core/DashboardEmbedding/EmbedDashboardwithSSOusingToken) in Visual Studio Code.
    
   * Open the terminal in Visual Studio Code and execute the command `dotnet restore` to restore the required dependencies.
  
@@ -61,7 +61,7 @@ To set the following properties in the `EmbedProperties.cs` file, follow these i
  
   * To run the application, use the command `dotnet run` in the terminal. After the application has started, it will display a URL in the `command line interface`, typically something like (e.g., https://localhost:7096). Copy this URL and paste it into your default web browser.
 
-    ![Dashboard View](https://github.com/boldbi/iframe-dashboard-asp-net-mvc-sample/assets/129487075/df676da3-280d-4006-9914-8d140d279e6c)
+    ![iframedashboard](https://github.com/boldbi/iframe-token-based-authorization-sample/assets/129487075/f1fc9967-009e-4ce7-9c09-266c1e21aeb2)
 
 ## Important notes
 
