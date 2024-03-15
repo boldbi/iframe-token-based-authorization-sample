@@ -1,0 +1,27 @@
+﻿@using EmbedWidgetwithSSOusingToken.Models;
+@{
+    ViewBag.Title = "Home";
+    var embedSignature = ViewBag.EmbedSignature;
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>@ViewBag.Title</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        var embedSignature = '@embedSignature';
+        var dashboardUrl = '@EmbedProperties.DashboardUrl';
+        var widgetId = '@EmbedProperties.WidgetId';
+        $(document).ready(function () {
+            var iframeUrl = "<iframe src='" + dashboardUrl + "?isWidgetMode=true&WidgetId=" + widgetId + "&" + embedSignature + "' id='dashboard-frame' width='100%' height='100%' allowfullscreen frameborder='0'></iframe>";
+            $("#dashboard").append(iframeUrl);
+        });
+    </script>
+</head>
+
+<body>
+    <div id="dashboard" style="width: 100%; height: 700px;"></div>
+</body>
+</html>
