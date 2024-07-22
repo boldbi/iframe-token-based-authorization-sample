@@ -23,15 +23,9 @@ This sample demonstrates the embedding the dashboard with iFrame based Single Si
 
 | **Parameter**       | **Description** |
 |---------------------|-----------------|
-| **Dashboard URL**   | URL of the dashboard to be embed. Refer to this [link](https://help.boldbi.com/working-with-dashboards/share-dashboards/get-dashboard-link) to get the URL.  |
-|                     | **Example:**    |
-|                     | `https://test.boldbi.com/bi/en-us/site/site1/dashboards/8428c9d9-85db-418c-b877-ea4495dcddd7/Predictive%20Analytics/Personal%20Expense%20Analysis` |
-| **EmbedSecretKey**  | Get your EmbedSecret key from the Embed tab by enabling the Enable embed authentication in the [Administration page](https://help.boldbi.com/site-administration/embed-settings/#get-embed-secret-code). |
-|                     | **Example:**    |
-|                     | `EmbedSecretKey = "TVGajVPZ5M89IPfFqSnszgAzN1d6Jbkd";` |
-| **Embed User Email**| UserEmail of the Admin in your Bold BI. |
-|                     | **Example:**    |
-|                     | `Embed_User_Email = "test@domain.com";` |
+| **Dashboard URL**   | URL of the dashboard to be embed. Refer to this [link](https://help.boldbi.com/working-with-dashboards/share-dashboards/get-dashboard-link) to get the URL. **Example:** `https://test.boldbi.com/bi/en-us/site/site1/dashboards/8428c9d9-85db-418c-b877-ea4495dcddd7/Predictive%20Analytics/Personal%20Expense%20Analysis` |
+| **EmbedSecretKey**  | Get your EmbedSecret key from the Embed tab by enabling the Enable embed authentication in the [Administration page](https://help.boldbi.com/site-administration/embed-settings/#get-embed-secret-code). **Example:** `EmbedSecretKey = "TVGajVPZ5M89IPfFqSnszgAzN1d6Jbkd";` |
+| **Embed User Email**| UserEmail of the Admin in your Bold BI. **Example:** `Embed_User_Email = "test@domain.com";` |
 
 ## Developer IDE
 
