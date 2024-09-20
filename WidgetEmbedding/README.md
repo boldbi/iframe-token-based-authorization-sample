@@ -8,7 +8,7 @@ This sample demonstrates the embedding the widget with iFrame based Single Sign-
 
 ### Help link
 
-* <https://help.boldbi.com/embedded-bi/faq/where-can-i-find-the-product-version/?utm_source=github&utm_medium=backlinks>
+* <https://help.boldbi.com/embedded-bi/faq/where-can-i-find-the-product-version?utm_source=github&utm_medium=backlinks>
 
 ### Supported browsers
   
@@ -43,7 +43,7 @@ This sample demonstrates the embedding the widget with iFrame based Single Sign-
 
 > **NOTE:** The default behavior is to display `iframe` content in the `Chrome` browser. If you do not have `Chrome`, please manually retrieve the `iframe` content from the application.
 
-Please refer to the [help documentation](https://help.boldbi.com/embedding-options/iframe-embedding/embed-widgets-with-sso-using-token/?utm_source=github&utm_medium=backlinks) to know how to run the sample.
+Please refer to the [help documentation](https://help.boldbi.com/embedding-options/iframe-embedding/embed-widgets-with-sso-using-token?utm_source=github&utm_medium=backlinks) to know how to run the sample.
 
 ## Important notes
 
@@ -55,4 +55,4 @@ Look at the Bold BI Embedding sample to live demo [here](https://samples.boldbi.
 
 ## Documentation
 
-A complete Bold BI Embedding documentation can be found on [Bold BI Embedding Help](https://help.boldbi.com/embedding-options/iframe-embedding/?utm_source=github&utm_medium=backlinks).
+A complete Bold BI Embedding documentation can be found on [Bold BI Embedding Help](https://help.boldbi.com/embedding-options/iframe-embedding?utm_source=github&utm_medium=backlinks).
